@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin-left: 1%;
+            text-align: center;
+
+        }
+
+        body {
+            background-color: rgba(129, 17, 204, 0.637);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding-top: 70px;
+        }
+
+        h6 {
+            color: white;
+            font-size: 20px;
+            padding-top: 50px;
+        }
+
+        input {
+
+            width: 50%;
+            height: 5vh;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: blueviolet;
+            width: 10%;
+            height: 7vh;
+            color: white;
+            margin: 5%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h1>MONTH QUIZ</h1>
+
+        <h6 style="text-align: center;">what is the count of months in one year</h6>
+        <input id="btn1" type="number">
+        <p style="background-color: aliceblue; border-radius: 5px; margin-left: 47%;  width: 90px;   margin-top: 20px;"
+            id="btn2"></p>
+
+        <h6 style="text-align: center;">what is the color of sky</h6>
+        <input id="btn3" type="text">
+        <p style="background-color: aliceblue; border-radius: 5px; margin-left: 47%;  width: 90px;   margin-top: 20px;"
+            id="btn4"></p>
+
+        <h6 style="text-align: center;">which year is now</h6>
+        <input id="btn5" type="number">
+        <p style="background-color: aliceblue; border-radius: 5px; margin-left: 47%;  width: 90px;   margin-top: 20px;"
+            id="btn6"></p>
+        <h6 style="text-align: center;">how many levels in the primary school</h6>
+        <input id="btn7" type="number">
+        <p style="background-color: aliceblue; border-radius: 5px; margin-left: 47%;  width: 90px;   margin-top: 20px;"
+            id="btn8"></p>
+
+
+
+
+    </section>
+    <div style="display: flex;">
+        <p
+            style="color: aliceblue;  margin-left:20%; margin-top: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;">
+            result:</p>
+        <p style="text-align: center; font-size: 30px; margin-top: 10px;" id="btn9"></p>
+    </div>
+
+    <button id="btn" onclick="validate()">FINISH QUIZ</button>
+    <script src="./js/index.js">
+
+    </script>
+</body>
+
+</html>
